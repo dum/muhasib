@@ -1,0 +1,23 @@
+{
+    "name": "dum/muhasib",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dmitry Rodionov",
+            "email": "dmitry@rdnv.ru"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "5.5.38"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "squizlabs/php_codesniffer": "3.*",
+        "php-coveralls/php-coveralls": "1.*"
+    }
+}
